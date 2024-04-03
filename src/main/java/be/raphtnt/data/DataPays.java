@@ -1,13 +1,14 @@
 package be.raphtnt.data;
 
-public class DataVille extends Data{
+public class DataPays extends Data{
     @Override
     public String name() {
-        return "Ville";
+        return "Pays";
     }
 
     @Override
     public Object process() {
-        return randomDataFromFile("ville.json");
+        return randomDataFromFile("pays.json");
     }
+
 }

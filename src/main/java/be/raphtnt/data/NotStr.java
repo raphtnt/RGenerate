@@ -1,5 +1,8 @@
 package be.raphtnt.data;
 
-public interface Str {
+/**
+ * The NotStr interface provides a blueprint for classes that generate data that is not a string.
+ */
+public interface NotStr {
 
 }

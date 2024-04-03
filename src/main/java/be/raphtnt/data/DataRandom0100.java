@@ -2,7 +2,7 @@ package be.raphtnt.data;
 
 import java.util.Random;
 
-public class DataRandom extends Data{
+public class DataRandom0100 extends Data implements NotStr{
 
     @Override
     public String name() {
