@@ -4,27 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02550769-c8ce-4fbc-a248-2c8236b7872a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="02550769-c8ce-4fbc-a248-2c8236b7872a" name="Changes" comment="Update data classes and implement related functionalities&#10;&#10;Extended Data class in DataVille, DataIncrement, and DataDateRandomString to include specific processing mechanisms. Implemented NotStr interface for classes that generate non-string data. Also, JSON files have been updated to enrich generated data, and minor naming adjustments have been made in some data classes for clarity.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataLicense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataPhoneString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataRandom050.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataVehicule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/extension.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/license.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vehicule.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/Generateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/Generateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataDateRandomString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataDateRandomString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataIncrement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataIncrement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataNom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataNom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataPays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataPays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataPrenom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataPrenom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataRandom010.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataRandom010.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataRandom0100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataRandom0100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataRandom01000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataRandom01000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataVille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataVille.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/NotStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/NotStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/nom.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/nom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pays.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pays.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/prenom.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/prenom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ville.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ville.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,37 +44,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SqlParser.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TEMP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TTT.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.TestGenerateData [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.TestGenerateData [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/raph/Documents/Projet/Minecraft/Developpement/TestGenerateData/src/main/java/be/raphtnt/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.SqlParser.executor": "Run",
+    "Application.TEMP.executor": "Run",
+    "Application.TTT.executor": "Run",
+    "Maven.TestGenerateData [compile].executor": "Run",
+    "Maven.TestGenerateData [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/raph/Documents/Projet/Minecraft/Developpement/TestGenerateData/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/raph/Documents/Projet/Minecraft/Developpement/TestGenerateData/src/main/java/be/raphtnt/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\raph\Documents\Projet\Minecraft\Developpement\TestGenerateData\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="be.raphtnt" />
       <recent name="be.raphtnt.data" />
+      <recent name="be.raphtnt" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -169,11 +164,30 @@
       <workItem from="1711984476017" duration="1506000" />
       <workItem from="1712151350977" duration="554000" />
       <workItem from="1712159625699" duration="1960000" />
-      <workItem from="1712162280039" duration="951000" />
+      <workItem from="1712162280039" duration="1294000" />
+      <workItem from="1712411917106" duration="872000" />
+      <workItem from="1713113176997" duration="38000" />
+      <workItem from="1714044340768" duration="3114000" />
+      <workItem from="1714065521193" duration="581000" />
+      <workItem from="1714212124361" duration="21000" />
+      <workItem from="1715702483654" duration="1744000" />
     </task>
+    <task id="LOCAL-00001" summary="Update data classes and implement related functionalities&#10;&#10;Extended Data class in DataVille, DataIncrement, and DataDateRandomString to include specific processing mechanisms. Implemented NotStr interface for classes that generate non-string data. Also, JSON files have been updated to enrich generated data, and minor naming adjustments have been made in some data classes for clarity.">
+      <option name="closed" value="true" />
+      <created>1712163289869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712163289870</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update data classes and implement related functionalities&#10;&#10;Extended Data class in DataVille, DataIncrement, and DataDateRandomString to include specific processing mechanisms. Implemented NotStr interface for classes that generate non-string data. Also, JSON files have been updated to enrich generated data, and minor naming adjustments have been made in some data classes for clarity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update data classes and implement related functionalities&#10;&#10;Extended Data class in DataVille, DataIncrement, and DataDateRandomString to include specific processing mechanisms. Implemented NotStr interface for classes that generate non-string data. Also, JSON files have been updated to enrich generated data, and minor naming adjustments have been made in some data classes for clarity." />
   </component>
 </project>

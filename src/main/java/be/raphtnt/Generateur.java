@@ -19,27 +19,33 @@ public class Generateur {
     private ArrayList<Table> tables = new ArrayList<>();
     private HashMap<String, Data> tempData = new HashMap<>();
 
-    private int nbLine = 1;
+    private int nbLine = 50;
     public static int idIncrement = 1;
     private int currentTable = 0;
     /* Path ou le fichier .sql va être générer */
     private String path = "C:\\test\\";
     /* Path de lecture du fichier .sql */
-    private String pathReadSQL = "C:\\test\\gcs.sql";
+    private String pathReadSQL = "C:\\Users\\raph\\Downloads\\script.sql";
     /* Nom du fichier qui va être généré */
-    private String nameFile = "monfichier";
+    private String nameFile = "alper";
 
-    public static boolean debug = false;
+    public static boolean debug = true;
 
     private void initData() {
         new DataIncrement().execute();
         new DataPrenom().execute();
         new DataNom().execute();
+        new DataEmail().execute();
         new DataRandom010().execute();
+        new DataRandom050().execute();
         new DataRandom0100().execute();
         new DataRandom01000().execute();
         new DataVille().execute();
         new DataPays().execute();
+        new DataPhone().execute();
+        new DataPhoneString().execute();
+        new DataVehicule().execute();
+        new DataLicense().execute();
         new DataDateRandomString().execute();
     }
 
