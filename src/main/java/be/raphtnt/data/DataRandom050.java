@@ -6,7 +6,7 @@ public class DataRandom050 extends Data implements NotStr{
 
     @Override
     public String name() {
-        return "Nombre aléatoire entre 0 et 10";
+        return "Nombre aléatoire entre 0 et 50";
     }
 
     @Override

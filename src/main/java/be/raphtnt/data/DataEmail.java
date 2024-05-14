@@ -3,7 +3,7 @@ package be.raphtnt.data;
 public class DataEmail extends Data{
     @Override
     public String name() {
-        return "Nom";
+        return "Emaily";
     }
 
     @Override

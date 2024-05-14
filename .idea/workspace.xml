@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02550769-c8ce-4fbc-a248-2c8236b7872a" name="Changes" comment="Update data classes and implement related functionalities&#10;&#10;Extended Data class in DataVille, DataIncrement, and DataDateRandomString to include specific processing mechanisms. Implemented NotStr interface for classes that generate non-string data. Also, JSON files have been updated to enrich generated data, and minor naming adjustments have been made in some data classes for clarity.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataLicense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataPhoneString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataRandom050.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataVehicule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/extension.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/license.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vehicule.json" afterDir="false" />
+    <list default="true" id="02550769-c8ce-4fbc-a248-2c8236b7872a" name="Changes" comment="Update and expand data class functionalities&#10;&#10;Introduced new data classes, specifically DataVehicule, DataEmail, DataPhone, DataLicense, and DataRandom050 for more variety in data generation. Updated JSON files like license.json, vehicule.json, and extension.json to accommodate these changes. Adjusted Generateur.java to reflect these additions and changes for richer data generation.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/Generateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/Generateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataRandom050.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataRandom050.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataVehicule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/raphtnt/data/DataVehicule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +163,7 @@
       <workItem from="1714044340768" duration="3114000" />
       <workItem from="1714065521193" duration="581000" />
       <workItem from="1714212124361" duration="21000" />
-      <workItem from="1715702483654" duration="1744000" />
+      <workItem from="1715702483654" duration="3154000" />
     </task>
     <task id="LOCAL-00001" summary="Update data classes and implement related functionalities&#10;&#10;Extended Data class in DataVille, DataIncrement, and DataDateRandomString to include specific processing mechanisms. Implemented NotStr interface for classes that generate non-string data. Also, JSON files have been updated to enrich generated data, and minor naming adjustments have been made in some data classes for clarity.">
       <option name="closed" value="true" />
@@ -180,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712163289870</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update and expand data class functionalities&#10;&#10;Introduced new data classes, specifically DataVehicule, DataEmail, DataPhone, DataLicense, and DataRandom050 for more variety in data generation. Updated JSON files like license.json, vehicule.json, and extension.json to accommodate these changes. Adjusted Generateur.java to reflect these additions and changes for richer data generation.">
+      <option name="closed" value="true" />
+      <created>1715704249377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715704249377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +189,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update data classes and implement related functionalities&#10;&#10;Extended Data class in DataVille, DataIncrement, and DataDateRandomString to include specific processing mechanisms. Implemented NotStr interface for classes that generate non-string data. Also, JSON files have been updated to enrich generated data, and minor naming adjustments have been made in some data classes for clarity." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update data classes and implement related functionalities&#10;&#10;Extended Data class in DataVille, DataIncrement, and DataDateRandomString to include specific processing mechanisms. Implemented NotStr interface for classes that generate non-string data. Also, JSON files have been updated to enrich generated data, and minor naming adjustments have been made in some data classes for clarity." />
+    <MESSAGE value="Update and expand data class functionalities&#10;&#10;Introduced new data classes, specifically DataVehicule, DataEmail, DataPhone, DataLicense, and DataRandom050 for more variety in data generation. Updated JSON files like license.json, vehicule.json, and extension.json to accommodate these changes. Adjusted Generateur.java to reflect these additions and changes for richer data generation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update and expand data class functionalities&#10;&#10;Introduced new data classes, specifically DataVehicule, DataEmail, DataPhone, DataLicense, and DataRandom050 for more variety in data generation. Updated JSON files like license.json, vehicule.json, and extension.json to accommodate these changes. Adjusted Generateur.java to reflect these additions and changes for richer data generation." />
   </component>
 </project>
